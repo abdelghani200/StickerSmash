@@ -7,9 +7,9 @@ const NotFoundScreen = () => {
         <>
             <Stack.Screen options={{ title: 'Oops! Not Found' }}/>
             <View>
-                <Link href="/(tabs)/index">
+                {/* <Link href="/(tabs)/index">
                     Go back to Home screen!
-                </Link>
+                </Link> */}
             </View>
         </>
     )
